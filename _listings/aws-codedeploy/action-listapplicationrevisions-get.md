@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListApplicationRevisions&k=1:
+  /?Action=ListApplicationRevisions:
     get:
       summary: ' List Application Revisions '
       description: Lists information about revisions for an application
