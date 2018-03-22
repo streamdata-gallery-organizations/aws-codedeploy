@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=BatchGetDeploymentInstances&k=1:
+  /?Action=BatchGetDeploymentInstances:
     get:
       summary: ' Batch Get Deployment Instances '
       description: |-
