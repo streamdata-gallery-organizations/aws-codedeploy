@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=BatchGetApplicationRevisions&k=1:
+  /?Action=BatchGetApplicationRevisions:
     get:
       summary: ' Batch Get Application Revisions '
       description: Gets information about one or more application revisions
