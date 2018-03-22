@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterApplicationRevision&k=1:
+  /?Action=RegisterApplicationRevision:
     get:
       summary: ' Register Application Revision '
       description: Registers with AWS CodeDeploy a revision for the specified application
