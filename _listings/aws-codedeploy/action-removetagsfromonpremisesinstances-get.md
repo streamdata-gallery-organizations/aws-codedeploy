@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RemoveTagsFromOnPremisesInstances&k=1:
+  /?Action=RemoveTagsFromOnPremisesInstances:
     get:
       summary: ' Remove Tags From On Premises Instances '
       description: Removes one or more tags from one or more on-premises instances
