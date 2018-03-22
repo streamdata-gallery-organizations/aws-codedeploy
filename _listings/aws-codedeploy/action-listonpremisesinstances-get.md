@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListOnPremisesInstances&k=1:
+  /?Action=ListOnPremisesInstances:
     get:
       summary: ' List On Premises Instances '
       description: Gets a list of names for one or more on-premises instances
