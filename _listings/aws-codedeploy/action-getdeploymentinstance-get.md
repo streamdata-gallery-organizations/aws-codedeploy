@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDeploymentInstance&k=1:
+  /?Action=GetDeploymentInstance:
     get:
       summary: ' Get Deployment Instance '
       description: Gets information about an instance as part of a deployment
