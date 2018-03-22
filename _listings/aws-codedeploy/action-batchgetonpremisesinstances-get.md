@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=BatchGetOnPremisesInstances&k=1:
+  /?Action=BatchGetOnPremisesInstances:
     get:
       summary: ' Batch Get On Premises Instances '
       description: Gets information about one or more on-premises instances
