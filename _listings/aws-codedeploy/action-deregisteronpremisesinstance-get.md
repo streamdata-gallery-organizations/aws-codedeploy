@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterOnPremisesInstance&k=1:
+  /?Action=DeregisterOnPremisesInstance:
     get:
       summary: ' Deregister On Premises Instance '
       description: Deregisters an on-premises instance
