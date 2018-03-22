@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetApplicationRevision&k=1:
+  /?Action=GetApplicationRevision:
     get:
       summary: ' Get Application Revision '
       description: Gets information about an application revision
