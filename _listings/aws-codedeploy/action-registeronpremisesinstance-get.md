@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterOnPremisesInstance&k=1:
+  /?Action=RegisterOnPremisesInstance:
     get:
       summary: ' Register On Premises Instance '
       description: Registers an on-premises instance
