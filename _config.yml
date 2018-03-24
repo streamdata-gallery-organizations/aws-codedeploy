@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: aws-codedeploy.api.streamdata.gallery
+title: Streamdata Gallery AWS CodeDeploy
+url: aws-codedeploy.streamdata.gallery
 tag: AWS CodeDeploy
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: aws-codedeploy
 github_branch: master
 collections:
