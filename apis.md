@@ -1,44 +1,18 @@
 ---
-name: AWS CodeDeploy
-x-slug: aws-codedeploy
-description: AWS CodeDeploy is a service that automates code deployments to any instance,
-  including Amazon EC2 instances and instances running on-premises. AWS CodeDeploy
-  makes it easier for you to rapidly release new features, helps you avoid downtime
-  during application deployment, and handles the complexity of updating your applications.
-  You can use AWS CodeDeploy to automate software deployments, eliminating the need
-  for error-prone manual operations, and the service scales with your infrastructure
-  so you can easily deploy to one instance or thousands.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
-x-kinRank: "10"
-x-alexaRank: ""
-tags: AWS CodeDeploy
-created: "2018-05-24"
-modified: "2018-05-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codedeploy/master/_listings/aws-codedeploy/apis.md
+name: Streadata.io API Gallery - AWS CodeDeploy
+description: This is a repository of aws codedeploy APIs, self-contained as a Github
+  repository, with HTML and YAML representations of the APIs and their surrounding
+  operations.
+image: http://template.streamdata.gallery/assets/aws-codedeploy.png
+created: "2018-02-24"
+modified: "2018-06-20"
+url: http://aws-codedeploy.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
-x-common:
-- type: x-command-line-interface
-  url: http://docs.aws.amazon.com/cli/latest/reference/codedeploy
-- type: x-documentation
-  url: http://docs.aws.amazon.com/codedeploy/latest/APIReference
-- type: x-faq
-  url: https://aws.amazon.com/codedeploy/faqs/
-- type: x-forum
-  url: https://forums.aws.amazon.com/forum.jspa?forumID=179
-- type: x-getting-started
-  url: https://aws.amazon.com/codedeploy/getting-started/
-- type: x-integrations
-  url: https://aws.amazon.com/codedeploy/product-integrations/
-- type: x-partners
-  url: https://aws.amazon.com/solutions/partners/dev-ops/
-- type: x-pricing
-  url: https://aws.amazon.com/codedeploy/pricing/
-- type: x-tutorials
-  url: https://aws.amazon.com/codedeploy/developer-resources/#tutorials
-- type: x-website
-  url: https://aws.amazon.com/codedeploy/
-include: []
+tags: AWS CodeDeploy
+include:
+- name: AWS CodeDeploy
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codedeploy/master/_listings/aws-codedeploy/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
