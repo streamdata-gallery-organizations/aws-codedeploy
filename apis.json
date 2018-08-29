@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - AWS CodeDeploy",
+	"description": "This is a repository of aws codedeploy APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/aws-codedeploy.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://aws-codedeploy.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AWS CodeDeploy",
+			"x-api-slug": "aws-codedeploy",
+			"description": "AWS CodeDeploy is a service that automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises. AWS CodeDeploy makes it easier for you to rapidly release new features, helps you avoid downtime during application deployment, and handles the complexity of updating your applications. You can use AWS CodeDeploy to automate software deployments, eliminating the need for error-prone manual operations, and the service scales with your infrastructure so you can easily deploy to one instance or thousands.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png",
+			"humanURL": "https://aws.amazon.com/codedeploy/",
+			"baseURL": ":///",
+			"tags": "AWS CodeDeploy",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codedeploy/master/_listings/aws-codedeploy/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "AWS CodeDeploy",
+	"include": [
+		{
+			"name": "AWS CodeDeploy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-codedeploy/master/_listings/aws-codedeploy/apis.yaml"
+		}
+	]
+}
